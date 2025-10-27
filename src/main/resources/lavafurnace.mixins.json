@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.lavafurnace.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinAbstractFurnaceBlockEntity",
+    "accessor.AbstractFurnaceBlockEntityAccessor"
+  ],
+  "client": []
+}

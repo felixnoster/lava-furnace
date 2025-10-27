@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lavafurnace",
+  "version": "${version}",
+  "name": "Lava Furnace (Singleplayer Only, 1.21.9)",
+  "description": "Normal furnaces burn indefinitely near lava in singleplayer. Debug logs enabled.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.lavafurnace.LavaFurnaceMod"
+    ]
+  },
+  "mixins": [
+    "lavafurnace.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "fabric-api": "*",
+    "minecraft": "1.21.9"
+  }
+}
