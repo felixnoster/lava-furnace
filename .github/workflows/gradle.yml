@@ -18,11 +18,11 @@ jobs:
           distribution: temurin
           java-version: '21'
 
-      # Gradle 8.10 → kompatibel mit Loom 1.7.x
-      - name: Build with Gradle 8.10
+      # Gradle 8.8 → kompatibel mit Loom 1.7.x
+      - name: Build with Gradle 8.8
         uses: gradle/gradle-build-action@v3
         with:
-          gradle-version: 8.10
+          gradle-version: 8.8
           arguments: clean build
 
       - name: Upload artifacts
